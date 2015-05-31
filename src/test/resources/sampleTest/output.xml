@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns3:sampleResponse xmlns:ns3="http://rapasoft.eu/webservice/test">
+            <sample>
+                <id>1</id>
+                <sample_name>sample name</sample_name>
+                <description>sample description</description>
+                <date_added>2015-05-31</date_added>
+            </sample>
+        </ns3:sampleResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
